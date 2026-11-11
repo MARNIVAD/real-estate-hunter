@@ -1,5 +1,17 @@
 # AI Real Estate Bot Da Nang — MVP
 
+**The Problem:** Real estate agents lose clients because they can't reply 24/7 or filter out spam.
+**The Solution:** An AI-powered Telegram bot that talks to clients, extracts their requirements (budget, area, pets) in any language using OpenAI, matches them with the agent's database, and delivers only *hot leads* to the agent.
+
+## ✨ Key Features
+- 🤖 **AI Slot-Filling:** Understands natural language (RU/EN/VN) and asks clarifying questions.
+- 🔍 **Smart Search:** Queries PostgreSQL and gracefully falls back if no exact matches are found.
+- 📊 **Agent Dashboard:** Agents can add listings, view leads, and upload Excel files directly via the bot.
+- ⚡ **Fast & Async:** Built with Python 3.11+, aiogram 3, SQLAlchemy 2.0 (async), and deployed on Render.
+
+## 🛠 Tech Stack
+Python, aiogram 3, PostgreSQL, OpenAI API (gpt-4o-mini), SQLAlchemy, Alembic, Docker-ready.
+
 ## Что это
 
 Telegram-бот для риелторов в Дананге. Клиент приходит по персональной ссылке
